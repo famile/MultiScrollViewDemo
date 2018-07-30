@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A65CBA442101947300EB36C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A65CBA432101947300EB36C7 /* AppDelegate.m */; };
+		A65CBA472101947300EB36C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65CBA462101947300EB36C7 /* ViewController.m */; };
+		A65CBA4A2101947300EB36C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65CBA482101947300EB36C7 /* Main.storyboard */; };
+		A65CBA4C2101947300EB36C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65CBA4B2101947300EB36C7 /* Assets.xcassets */; };
+		A65CBA4F2101947300EB36C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65CBA4D2101947300EB36C7 /* LaunchScreen.storyboard */; };
+		A65CBA522101947300EB36C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A65CBA512101947300EB36C7 /* main.m */; };
+		A65CBA5C2101947400EB36C7 /* MultiScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A65CBA5B2101947400EB36C7 /* MultiScrollViewDemoTests.m */; };
+		A65CBA672101947400EB36C7 /* MultiScrollViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A65CBA662101947400EB36C7 /* MultiScrollViewDemoUITests.m */; };
+		A65CBA782101C05700EB36C7 /* TableView1.m in Sources */ = {isa = PBXBuildFile; fileRef = A65CBA772101C05700EB36C7 /* TableView1.m */; };
+		A65CBA7B2101C06200EB36C7 /* TableView2.m in Sources */ = {isa = PBXBuildFile; fileRef = A65CBA7A2101C06200EB36C7 /* TableView2.m */; };
+		A65CBA7E210579CF00EB36C7 /* MoreItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = A65CBA7D210579CF00EB36C7 /* MoreItemView.m */; };
+		A65CBA80210579EA00EB36C7 /* MoreItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A65CBA7F210579EA00EB36C7 /* MoreItemView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A65CBA582101947400EB36C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A65CBA372101947300EB36C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A65CBA3E2101947300EB36C7;
+			remoteInfo = MultiScrollViewDemo;
+		};
+		A65CBA632101947400EB36C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A65CBA372101947300EB36C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A65CBA3E2101947300EB36C7;
+			remoteInfo = MultiScrollViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A65CBA3F2101947300EB36C7 /* MultiScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65CBA422101947300EB36C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A65CBA432101947300EB36C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A65CBA452101947300EB36C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A65CBA462101947300EB36C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A65CBA492101947300EB36C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A65CBA4B2101947300EB36C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A65CBA4E2101947300EB36C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A65CBA502101947300EB36C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65CBA512101947300EB36C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A65CBA572101947400EB36C7 /* MultiScrollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiScrollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65CBA5B2101947400EB36C7 /* MultiScrollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiScrollViewDemoTests.m; sourceTree = "<group>"; };
+		A65CBA5D2101947400EB36C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65CBA622101947400EB36C7 /* MultiScrollViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiScrollViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65CBA662101947400EB36C7 /* MultiScrollViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiScrollViewDemoUITests.m; sourceTree = "<group>"; };
+		A65CBA682101947400EB36C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65CBA752101958400EB36C7 /* MultiScrollViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiScrollViewHeader.h; sourceTree = "<group>"; };
+		A65CBA762101C05700EB36C7 /* TableView1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableView1.h; sourceTree = "<group>"; };
+		A65CBA772101C05700EB36C7 /* TableView1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView1.m; sourceTree = "<group>"; };
+		A65CBA792101C06200EB36C7 /* TableView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableView2.h; sourceTree = "<group>"; };
+		A65CBA7A2101C06200EB36C7 /* TableView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView2.m; sourceTree = "<group>"; };
+		A65CBA7C210579CF00EB36C7 /* MoreItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreItemView.h; sourceTree = "<group>"; };
+		A65CBA7D210579CF00EB36C7 /* MoreItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreItemView.m; sourceTree = "<group>"; };
+		A65CBA7F210579EA00EB36C7 /* MoreItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreItemView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A65CBA3C2101947300EB36C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65CBA542101947400EB36C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65CBA5F2101947400EB36C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A65CBA362101947300EB36C7 = {
+			isa = PBXGroup;
+			children = (
+				A65CBA412101947300EB36C7 /* MultiScrollViewDemo */,
+				A65CBA5A2101947400EB36C7 /* MultiScrollViewDemoTests */,
+				A65CBA652101947400EB36C7 /* MultiScrollViewDemoUITests */,
+				A65CBA402101947300EB36C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A65CBA402101947300EB36C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A65CBA3F2101947300EB36C7 /* MultiScrollViewDemo.app */,
+				A65CBA572101947400EB36C7 /* MultiScrollViewDemoTests.xctest */,
+				A65CBA622101947400EB36C7 /* MultiScrollViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A65CBA412101947300EB36C7 /* MultiScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A65CBA422101947300EB36C7 /* AppDelegate.h */,
+				A65CBA432101947300EB36C7 /* AppDelegate.m */,
+				A65CBA74210194AC00EB36C7 /* MultiScrollView */,
+				A65CBA452101947300EB36C7 /* ViewController.h */,
+				A65CBA462101947300EB36C7 /* ViewController.m */,
+				A65CBA482101947300EB36C7 /* Main.storyboard */,
+				A65CBA4B2101947300EB36C7 /* Assets.xcassets */,
+				A65CBA4D2101947300EB36C7 /* LaunchScreen.storyboard */,
+				A65CBA502101947300EB36C7 /* Info.plist */,
+				A65CBA512101947300EB36C7 /* main.m */,
+			);
+			path = MultiScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		A65CBA5A2101947400EB36C7 /* MultiScrollViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A65CBA5B2101947400EB36C7 /* MultiScrollViewDemoTests.m */,
+				A65CBA5D2101947400EB36C7 /* Info.plist */,
+			);
+			path = MultiScrollViewDemoTests;
+			sourceTree = "<group>";
+		};
+		A65CBA652101947400EB36C7 /* MultiScrollViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A65CBA662101947400EB36C7 /* MultiScrollViewDemoUITests.m */,
+				A65CBA682101947400EB36C7 /* Info.plist */,
+			);
+			path = MultiScrollViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		A65CBA74210194AC00EB36C7 /* MultiScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A65CBA752101958400EB36C7 /* MultiScrollViewHeader.h */,
+				A65CBA762101C05700EB36C7 /* TableView1.h */,
+				A65CBA772101C05700EB36C7 /* TableView1.m */,
+				A65CBA792101C06200EB36C7 /* TableView2.h */,
+				A65CBA7A2101C06200EB36C7 /* TableView2.m */,
+				A65CBA7C210579CF00EB36C7 /* MoreItemView.h */,
+				A65CBA7D210579CF00EB36C7 /* MoreItemView.m */,
+				A65CBA7F210579EA00EB36C7 /* MoreItemView.xib */,
+			);
+			path = MultiScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A65CBA3E2101947300EB36C7 /* MultiScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65CBA6B2101947400EB36C7 /* Build configuration list for PBXNativeTarget "MultiScrollViewDemo" */;
+			buildPhases = (
+				A65CBA3B2101947300EB36C7 /* Sources */,
+				A65CBA3C2101947300EB36C7 /* Frameworks */,
+				A65CBA3D2101947300EB36C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiScrollViewDemo;
+			productName = MultiScrollViewDemo;
+			productReference = A65CBA3F2101947300EB36C7 /* MultiScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A65CBA562101947400EB36C7 /* MultiScrollViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65CBA6E2101947400EB36C7 /* Build configuration list for PBXNativeTarget "MultiScrollViewDemoTests" */;
+			buildPhases = (
+				A65CBA532101947400EB36C7 /* Sources */,
+				A65CBA542101947400EB36C7 /* Frameworks */,
+				A65CBA552101947400EB36C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65CBA592101947400EB36C7 /* PBXTargetDependency */,
+			);
+			name = MultiScrollViewDemoTests;
+			productName = MultiScrollViewDemoTests;
+			productReference = A65CBA572101947400EB36C7 /* MultiScrollViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A65CBA612101947400EB36C7 /* MultiScrollViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65CBA712101947400EB36C7 /* Build configuration list for PBXNativeTarget "MultiScrollViewDemoUITests" */;
+			buildPhases = (
+				A65CBA5E2101947400EB36C7 /* Sources */,
+				A65CBA5F2101947400EB36C7 /* Frameworks */,
+				A65CBA602101947400EB36C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65CBA642101947400EB36C7 /* PBXTargetDependency */,
+			);
+			name = MultiScrollViewDemoUITests;
+			productName = MultiScrollViewDemoUITests;
+			productReference = A65CBA622101947400EB36C7 /* MultiScrollViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A65CBA372101947300EB36C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Tao_Lee;
+				TargetAttributes = {
+					A65CBA3E2101947300EB36C7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					A65CBA562101947400EB36C7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A65CBA3E2101947300EB36C7;
+					};
+					A65CBA612101947400EB36C7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A65CBA3E2101947300EB36C7;
+					};
+				};
+			};
+			buildConfigurationList = A65CBA3A2101947300EB36C7 /* Build configuration list for PBXProject "MultiScrollViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A65CBA362101947300EB36C7;
+			productRefGroup = A65CBA402101947300EB36C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A65CBA3E2101947300EB36C7 /* MultiScrollViewDemo */,
+				A65CBA562101947400EB36C7 /* MultiScrollViewDemoTests */,
+				A65CBA612101947400EB36C7 /* MultiScrollViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A65CBA3D2101947300EB36C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65CBA4F2101947300EB36C7 /* LaunchScreen.storyboard in Resources */,
+				A65CBA4C2101947300EB36C7 /* Assets.xcassets in Resources */,
+				A65CBA80210579EA00EB36C7 /* MoreItemView.xib in Resources */,
+				A65CBA4A2101947300EB36C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65CBA552101947400EB36C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65CBA602101947400EB36C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A65CBA3B2101947300EB36C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65CBA472101947300EB36C7 /* ViewController.m in Sources */,
+				A65CBA522101947300EB36C7 /* main.m in Sources */,
+				A65CBA7B2101C06200EB36C7 /* TableView2.m in Sources */,
+				A65CBA442101947300EB36C7 /* AppDelegate.m in Sources */,
+				A65CBA7E210579CF00EB36C7 /* MoreItemView.m in Sources */,
+				A65CBA782101C05700EB36C7 /* TableView1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65CBA532101947400EB36C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65CBA5C2101947400EB36C7 /* MultiScrollViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65CBA5E2101947400EB36C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65CBA672101947400EB36C7 /* MultiScrollViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A65CBA592101947400EB36C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A65CBA3E2101947300EB36C7 /* MultiScrollViewDemo */;
+			targetProxy = A65CBA582101947400EB36C7 /* PBXContainerItemProxy */;
+		};
+		A65CBA642101947400EB36C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A65CBA3E2101947300EB36C7 /* MultiScrollViewDemo */;
+			targetProxy = A65CBA632101947400EB36C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A65CBA482101947300EB36C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65CBA492101947300EB36C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A65CBA4D2101947300EB36C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65CBA4E2101947300EB36C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A65CBA692101947400EB36C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A65CBA6A2101947400EB36C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A65CBA6C2101947400EB36C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NV44PHVW7;
+				INFOPLIST_FILE = MultiScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taotao.MultiScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A65CBA6D2101947400EB36C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NV44PHVW7;
+				INFOPLIST_FILE = MultiScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taotao.MultiScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A65CBA6F2101947400EB36C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MultiScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taotao.MultiScrollViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiScrollViewDemo.app/MultiScrollViewDemo";
+			};
+			name = Debug;
+		};
+		A65CBA702101947400EB36C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MultiScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taotao.MultiScrollViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiScrollViewDemo.app/MultiScrollViewDemo";
+			};
+			name = Release;
+		};
+		A65CBA722101947400EB36C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MultiScrollViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taotao.MultiScrollViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiScrollViewDemo;
+			};
+			name = Debug;
+		};
+		A65CBA732101947400EB36C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MultiScrollViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taotao.MultiScrollViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiScrollViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A65CBA3A2101947300EB36C7 /* Build configuration list for PBXProject "MultiScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65CBA692101947400EB36C7 /* Debug */,
+				A65CBA6A2101947400EB36C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65CBA6B2101947400EB36C7 /* Build configuration list for PBXNativeTarget "MultiScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65CBA6C2101947400EB36C7 /* Debug */,
+				A65CBA6D2101947400EB36C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65CBA6E2101947400EB36C7 /* Build configuration list for PBXNativeTarget "MultiScrollViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65CBA6F2101947400EB36C7 /* Debug */,
+				A65CBA702101947400EB36C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65CBA712101947400EB36C7 /* Build configuration list for PBXNativeTarget "MultiScrollViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65CBA722101947400EB36C7 /* Debug */,
+				A65CBA732101947400EB36C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A65CBA372101947300EB36C7 /* Project object */;
+}

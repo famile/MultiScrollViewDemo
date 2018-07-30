@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MoreItemView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PY4-ag-GQd">
+                    <rect key="frame" x="0.0" y="0.0" width="187.5" height="50"/>
+                    <state key="normal" title="item1">
+                        <color key="titleColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickitem1:" destination="iN0-l3-epB" eventType="touchUpInside" id="d0X-St-tgj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYL-zK-iTa">
+                    <rect key="frame" x="187.5" y="0.0" width="187.5" height="50"/>
+                    <state key="normal" title="item2">
+                        <color key="titleColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickItem2:" destination="iN0-l3-epB" eventType="touchUpInside" id="REv-q4-E4e"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="bYL-zK-iTa" secondAttribute="bottom" id="GOx-TD-5mh"/>
+                <constraint firstItem="PY4-ag-GQd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Jik-P6-Rka"/>
+                <constraint firstAttribute="trailing" secondItem="bYL-zK-iTa" secondAttribute="trailing" id="QFS-X1-sMa"/>
+                <constraint firstAttribute="bottom" secondItem="PY4-ag-GQd" secondAttribute="bottom" id="ZF0-kZ-Dkg"/>
+                <constraint firstItem="PY4-ag-GQd" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1/2" id="fY5-Wl-40O"/>
+                <constraint firstItem="bYL-zK-iTa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="iSw-tY-GOV"/>
+                <constraint firstItem="PY4-ag-GQd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="kTl-Dc-2cu"/>
+                <constraint firstItem="bYL-zK-iTa" firstAttribute="leading" secondItem="PY4-ag-GQd" secondAttribute="trailing" id="qO9-EH-B7v"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btn1" destination="PY4-ag-GQd" id="gqx-8L-AeC"/>
+                <outlet property="btn2" destination="bYL-zK-iTa" id="2Nj-pO-Mlp"/>
+            </connections>
+        </view>
+    </objects>
+</document>
